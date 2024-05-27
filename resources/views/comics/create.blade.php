@@ -4,7 +4,7 @@
 
 @section('content')
 <main>
-    <div class="container">
+    <div class="container text-danger">
         <h1>
             Add new comic
         </h1>
@@ -41,7 +41,6 @@
                 </select>
             </div>
             <button type="submit" class="btn btn-primary">Crea</button>
-            <button type="reset" class="btn btn-danger">Annulla</button>
         </form>
     </div>
 </main>
