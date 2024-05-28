@@ -23,6 +23,7 @@
                             Type: <a href="#">{{ $comic->type }}</a>
                         </p>
                         <a href="{{route('comics.show', $comic->id)}}" class="btn btn-primary">Scopri!</a>
+                        <a href="{{route('comics.edit', $comic->id )}}" class="btn btn-primary ">Modifica</a>
                     </div>
                 </div>
                 @endforeach
