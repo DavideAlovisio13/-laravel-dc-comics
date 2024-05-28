@@ -22,6 +22,7 @@
                         <p>
                             Type: <a href="#">{{ $comic->type }}</a>
                         </p>
+                        <a href="{{route('comics.show', $comic->id)}}" class="btn btn-primary">Scopri!</a>
                     </div>
                 </div>
                 @endforeach
