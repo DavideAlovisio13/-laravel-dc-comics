@@ -112,6 +112,14 @@ main {
     }
 }
 
+// jumbo style
+.jumbo {
+    width: 100%;
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
 // card style
 .card {
     cursor: pointer;
@@ -165,7 +173,7 @@ main {
 
 // utility classes
 .bg-footer {
-    background-image: url("/public/images/footer-bg.jpg");
+    background-image: url("/images/footer-bg.jpg");
     background-size: cover;
 }
 
