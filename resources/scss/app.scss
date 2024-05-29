@@ -18,6 +18,12 @@ $fa-font-path: "../webfonts" !default;
     padding: 0;
 }
 
+// general style
+
+a {
+    text-decoration: none;
+}
+
 // input validate 
 input:invalid {
     box-shadow: 0 0 5px 1px red;

@@ -6,13 +6,13 @@
         <div role="navigation" class="menubar">
             <ul>
                 <li>
-                    <a href="{{route('comics.create')}}">Inserisci nuovo fumetto</a>
-                </li>
-                <li>
                     <a href="{{route('home')}}">Home</a>
                 </li>
                 <li>
                     <a href="{{route('comics.index')}}">Scopri i nostri fumetti</a>
+                </li>
+                <li>
+                    <a href="{{route('comics.create')}}">Inserisci nuovo fumetto</a>
                 </li>
             </ul>
         </div>
