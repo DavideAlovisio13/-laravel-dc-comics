@@ -20,7 +20,7 @@ $fa-font-path: "../webfonts" !default;
 
 // input validate 
 input:invalid {
-    border-left: 15px solid red;
+    box-shadow: 0 0 5px 1px red;
 }
 
 input:valid {
