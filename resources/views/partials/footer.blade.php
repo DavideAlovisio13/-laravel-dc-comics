@@ -1,18 +1,22 @@
 <div role="footer" class="footers bg-blue-footer">
     <div class="container container-foo" id="footerTop">
-        <div class="mx-3 cardshop">
+        <div class="mx-3 cardshop w-100">
             <div class="img-cont">
                 <img src="/images/buy-comics-digital-comics.png" alt="footer-logos">
             </div>
+            <h5>digital comics</h5>
             <div class="img-cont">
                 <img src="/images/buy-comics-merchandise.png" alt="footer-logos">
             </div>
+            <h5>dc merchandise</h5>
             <div class="img-cont">
                 <img src="/images/buy-comics-shop-locator.png" alt="footer-logos">
             </div>
+            <h5>subscription</h5>
             <div class="img-cont">
                 <img src="/images/buy-comics-subscriptions.png" alt="footer-logos">
             </div>
+            <h5>comic shop locator</h5>
         </div>
         </>
     </div>

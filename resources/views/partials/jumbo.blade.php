@@ -1,2 +1,2 @@
-<div class="jumbo mt-5">
+<div class="jumbo">
 </div>
