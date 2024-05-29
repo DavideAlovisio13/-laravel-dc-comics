@@ -5,9 +5,9 @@
 @section('content')
     <main>
         <div class="container">
-            <h1 class="text-center">DC COMICS</h1>
+            <h1 class="text-center text-uppercase">Dc Comics</h1>
             <section id="home">
-                <div class="container px-5">
+                <div class="container px-5 ">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-lg-2">
                             <div class="p-5"><img class="img-fluid rounded-circle" src="/images/home.jpg" alt="..." />
@@ -25,11 +25,13 @@
                         </div>
                     </div>
                 </div>
-
             </section>
-            <section id="scopri"></section>
-            <section id="inserisci"></section>
+            <section id="scopri">
+            </section>
+        <section id="inserisci"></section>
         </div>
     </main>
 
 @endsection
+
+
