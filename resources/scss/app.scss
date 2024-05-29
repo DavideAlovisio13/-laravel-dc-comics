@@ -18,6 +18,15 @@ $fa-font-path: "../webfonts" !default;
     padding: 0;
 }
 
+// input validate 
+input:invalid {
+    border-left: 15px solid red;
+}
+
+input:valid {
+    border-left: 15px solid green;
+}
+
 // main style
 main {
     width: 100%;
@@ -208,7 +217,7 @@ main {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
     padding: 20px 0;
 

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Comic;
+use App\Http\Requests\StoreComicRequest;
+use App\Http\Requests\UpdateComicRequest;
+
 
 class ComicController extends Controller
 {
@@ -34,12 +37,10 @@ class ComicController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        $form_data = $request->all();
-        $new_comic = new Comic();
-        $new_comic->fill($form_data);
-        $new_comic->save();
+    public function store(StoreComicRequest $request)
+    {   
+        $form_data = $request->validated();
+        $new_comic = Comic::create($form_data);
         return redirect()->route("comics.index");
     }
 
@@ -72,11 +73,11 @@ class ComicController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Comic $comic)
+    public function update(UpdateComicRequest $request, Comic $comic)
     {
-        $form_data = $request->all();
+        $form_data = $request->validated();
         $comic->update($form_data);
-        return redirect()->route("comics.index"); 
+        return redirect()->route("comics.index");
     }
 
     /**
@@ -89,4 +90,5 @@ class ComicController extends Controller
         $comic->delete();
         return redirect()->route("comics.index")->with('message', 'Comic deleted!');
     }
+
 }
