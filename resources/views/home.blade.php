@@ -27,8 +27,32 @@
                 </div>
             </section>
             <section id="scopri" class="py-4">
-                <div class="container px-lg-5">
+                <div class="px-5">
                     <h2 class="display-4 fw-bolder pb-2 text-center pb-4 blue">Scopri DC</h2>
+                    <div class="body-carousel">
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" checked/>
+                        <input type="radio" name="position" />
+                        <input type="radio" name="position" />
+                        <div id="carousel">
+                            <div class="item mx-4">
+                                <img src="/images/IMG1-safeimagekit.jpg" alt="scopri dc" />
+                            </div>
+                            <div class="item mx-4">
+                                <img src="/images/IMG2-safeimagekit.jpg" alt="scopri dc" />
+                            </div>
+                            <div class="item mx-4">
+                                <img src="/images/IMG3-safeimagekit.jpg" alt="scopri dc" />
+                            </div>
+                            <div class="item mx-4">
+                                <img src="/images/IMG4-safeimagekit.jpg" alt="scopri dc" />
+                            </div>
+                            <div class="item mx-4">
+                                <img src="/images/IMG5-safeimagekit.jpg" alt="scopri dc" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section id="inserisci">
