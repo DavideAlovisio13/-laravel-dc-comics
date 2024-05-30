@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 isValid = false;
             }
         });
-
         if (!isValid) {
             event.preventDefault();
         } else {

@@ -19,7 +19,7 @@
                         <div class="card animate__animated position-relative">
                             <img src="{{ $comic->thumb }}" class="card-img-top" alt="{{ $comic->title }}" />
                             <span class="text-white position-absolute spanpop shadow-lg"
-                                style="display: none;">{{ $comic->description }}</span>
+                                style="display: none;">{{$comic->description}}</span>
                             <div class="card-body">
                                 <h5 class="card-title">{{ $comic->series }}</h5>
                                 <p>
