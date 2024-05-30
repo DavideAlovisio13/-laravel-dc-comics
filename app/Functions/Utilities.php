@@ -24,4 +24,10 @@ class Utilities
 
         return $data;
     }
+
+    public static function getConfig($key)
+    {
+        $dbList = config('db_list.');
+        return $dbList[$key];
+    }
 }

@@ -247,3 +247,19 @@ main {
     }
 }
 
+// media query
+@media screen and (max-width: 768px) {
+    .cardshop {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cardshop {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
