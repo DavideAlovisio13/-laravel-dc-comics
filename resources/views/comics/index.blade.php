@@ -3,7 +3,7 @@
 @section('title', 'Dc Comics')
 
 @section('content')
-    <main>
+    <main class="mt-5">
         <div class="container">
             <h1>
                 Current Series

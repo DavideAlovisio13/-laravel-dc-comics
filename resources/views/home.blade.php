@@ -3,6 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
+@include('partials.jumbo')
     <main id="main-home">
         <div class="container">
             <h1 class="text-center text-uppercase animate__tada animate__animated">Dc Comics</h1>
