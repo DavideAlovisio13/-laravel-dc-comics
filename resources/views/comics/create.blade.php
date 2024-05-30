@@ -3,7 +3,7 @@
 @section('title', 'Inserisci Fumetto')
 
 @section('content')
-    <main>
+    <main class="mt-5">
         <div class="container text-danger">
             <h1>
                 Add new comic

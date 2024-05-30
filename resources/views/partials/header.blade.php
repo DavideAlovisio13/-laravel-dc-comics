@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" class="shadow-sm">
     <div class="container container-head">
         <div class="logoheader">
             <img src="/images/dc-logo.png" alt="dclogo" class="rotate-x-infinite" />
