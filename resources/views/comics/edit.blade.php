@@ -6,7 +6,7 @@
     <main>
         <div class="container text-danger">
             <h1>
-                Add new comic
+                Modify {{ $comic->title }}
             </h1>
             <form action="{{ route('comics.update', $comic->id) }}" method="POST">
                 @csrf

@@ -28,12 +28,12 @@
                                 <p>
                                     Type: <a href="#">{{ $comic->type }}</a>
                                 </p>
-                                <a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary">Scopri!</a>
-                                <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-primary ">Modifica</a>
+                                <a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary me-2 mb-2">Scopri!</a>
+                                <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-primary mt-4">Modifica</a>
                                 <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="comicDelete">
+                                    <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" id="comicDelete">
                                         Elimina
                                     </button>
                                 </form>
@@ -43,27 +43,6 @@
                 </div>
             </div>
         </div>
-        
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Sei sicuro di voler eliminare questo elemento?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                <button type="button" class="btn btn-primary" id="btn_delete">Cancella</button>
-            </div>
-        </div>
-    </div>
-</div>
-
     </main>
 
 
