@@ -7,6 +7,7 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
+
 @import '~bootstrap/scss/bootstrap';
 
 // reset
@@ -16,6 +17,11 @@ $fa-font-path: "../webfonts" !default;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+// font style
+.blue {
+    color: $logo-header-bg-color;
 }
 
 // general style
@@ -36,7 +42,8 @@ input:valid {
 // main style
 main {
     width: 100%;
-    background-color: $main-black-bg;
+    background: rgb(112, 112, 112);
+    background: radial-gradient(circle, rgba(112, 112, 112, 1) 0%, rgba(28, 28, 28, 1) 95%);
 
     // container
     .container {
@@ -261,5 +268,3 @@ main {
         gap: 20px;
     }
 }
-
-

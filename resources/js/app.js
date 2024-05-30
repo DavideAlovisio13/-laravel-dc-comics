@@ -5,6 +5,8 @@ import.meta.glob([
     '../img/**'
 ])
 
+import simpleParallax from 'simple-parallax-js';
+
 // modal delete controll
 const deleteSubmitButtons = document.querySelectorAll('.delete-button');
 
@@ -56,3 +58,23 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// simple parralax
+if (document.getElementById('main-home')) {
+    //script per animazioni parallax
+    const section1 = document.getElementById('home');
+    new simpleParallax(section1, {
+        overflow: true,
+        orientation: 'right',
+        scale: '1.8',
+        maxTransition: 50,
+        transition: 'cubic-bezier(0,0,0,2)'
+    });
+    const section2 = document.getElementById('inserisci');
+    new simpleParallax(section2, {
+        overflow: true,
+        orientation: 'left',
+        scale: '1.6',
+        maxTransition: 50,
+        transition: 'cubic-bezier(0,0,0,2)'
+    });
+}
