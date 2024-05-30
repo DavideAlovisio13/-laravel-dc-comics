@@ -9,6 +9,7 @@ $fa-font-path: "../webfonts" !default;
 
 
 @import '~bootstrap/scss/bootstrap';
+@import 'animate.css';
 
 // reset
 *,
@@ -275,7 +276,7 @@ main {
         justify-content: center;
         overflow: hidden;
         transform-style: preserve-3d;
-        perspective: 600px;
+        perspective: 1000px;
         --items: 5;
         --middle: 3;
         --position: 1;

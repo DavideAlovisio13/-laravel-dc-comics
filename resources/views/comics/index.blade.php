@@ -29,7 +29,7 @@
                                     Type: <a href="#">{{ $comic->type }}</a>
                                 </p>
                                 <a href="{{ route('comics.show', $comic->id) }}" class="btn btn-primary me-2 mb-2">Scopri!</a>
-                                <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-primary mt-4">Modifica</a>
+                                <a href="{{ route('comics.edit', $comic->id) }}" class="btn btn-primary mt-4" id="comicEdit">Modifica</a>
                                 <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')

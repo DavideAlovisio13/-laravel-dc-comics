@@ -5,12 +5,12 @@
 @section('content')
     <main id="main-home">
         <div class="container">
-            <h1 class="text-center text-uppercase">Dc Comics</h1>
+            <h1 class="text-center text-uppercase animate__tada animate__animated">Dc Comics</h1>
             <section id="home" class="py-4">
                 <div class="container px-5 ">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-lg-2">
-                            <div class="p-5"><img class="img-fluid rounded-circle" src="/images/home.jpg" alt="..." />
+                            <div class="p-5"><img class="img-fluid rounded-circle animate__animated animate__bounce animate__infinite animate__slow" src="/images/home.jpg" alt="..." />
                             </div>
                         </div>
                         <div class="col-lg-6 order-lg-1">
@@ -29,10 +29,12 @@
             <section id="scopri" class="py-4">
                 <div class="px-5">
                     <h2 class="display-4 fw-bolder pb-2 text-center pb-4 blue">Scopri DC</h2>
+                    <h3 class=" pb-2 text-center pb-4 blue font-italic" style="font-family: Georgia, 'Times New Roman', Times, serif">“Non ho intenzione di ucciderti. Voglio che tu mi faccia un favore. Voglio che tu dica a tutti i tuoi amici di me”.</h3>
+                    <h5 class=" pb-2 text-center pb-4 blue font-weight-light">Batman, Batman (1989)</h5>
                     <div class="body-carousel">
                         <input type="radio" name="position" />
                         <input type="radio" name="position" />
-                        <input type="radio" name="position" checked/>
+                        <input type="radio" name="position" checked />
                         <input type="radio" name="position" />
                         <input type="radio" name="position" />
                         <div id="carousel">
